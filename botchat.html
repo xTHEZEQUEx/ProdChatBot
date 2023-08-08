@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chatbot con preguntas predefinidas</title>
+    <link rel="stylesheet" type="text/css" href="./botchat.css">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+      
+    <div class="chat-outer-container">
+      <div class="contenedorChat hidden">
+        <div class="cabecera">
+          <img class="logoChat" src="http://www.scn.com.co/wp-content/uploads/2023/07/cropped-Favicon-blanco.png"> 
+          <p class="chatSCN">
+            Chatear con<br> <b>SCN</b>
+          </p>
+        </div>
+        <div class="status">
+          <div class="circuloVerde"></div><p class="alerta"><b>Contestamos inmediatamente</b></p>
+        </div>
+        <div class="chat-box" id="cajaChat">
+          <!-- Aquí se añadirán los mensajes de la conversación -->
+        <div class="divUsuario">
+          <input type="text" class="inputUsuario" id="mensajeUsuario" placeholder="Introduce tu mensaje...">
+          <button class="botonEnviar" onclick="sendMessage()"><img src="http://www.scn.com.co/wp-content/uploads/2023/07/Enviaricono.png"></button>
+        </div>
+      </div>
+      <form>
+        <input type="text"name="q1" id="respuesta1">
+        <input type="email" name="q2" id="respuesta2">
+        <input type="number" name="q3" id="respuesta3">
+      </form>
+      <img id="botonChat" class="chatLogo" src="http://www.scn.com.co/wp-content/uploads/2023/07/ICONCHAT2.png">
+    </div>
+    <script src="./botchat.js"></script>

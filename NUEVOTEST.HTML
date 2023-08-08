@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="./nuevotest.css">
+</head>
+<body>
+  <div class="contenedorChat hidden" id="contenedorFormulario">
+    <div class="cabecera">
+      <img class="logoChat" src="http://www.scn.com.co/wp-content/uploads/2023/07/cropped-Favicon-blanco.png"> 
+      <p class="chatSCN">
+        Chatear con<br> <b>SCN</b>
+      </p>
+    </div>
+    <div class="status">
+      <div class="circuloVerde"></div><p class="alerta"><b>Contestamos inmediatamente</b></p>
+    </div>
+    <div class="chat-box" id="cajachat">
+      <div class="preguntas">
+        <p id="questionHeader" class="show">1. Escribe tu nombre:</p>
+        <div id="chatMessage"></div>
+        <!-- <div id="mensajeArriba"></div> -->
+      </div>
+      <div class="divUsuario"> 
+        <input type="text" id="responses" name="responses" placeholder="Escribe aquí tu respuesta"  class="show">
+        <button id="nextQuestionButton" class="show"><img src="http://www.scn.com.co/wp-content/uploads/2023/07/Enviaricono.png"></button>
+      </div>
+      <form method="post" id="miFormulario">
+        <input class="campoInvisible" type="text" id="nombre" name="nombre" disabled>
+        <input class="campoInvisible" type="text" id="correo" name="correo" disabled>
+        <input class="campoInvisible" type="text" id="telefono" name="telefono" disabled>
+      </form>
+    </div>
+  </div>
+  <a id="descargaEnlace" href="excel.php" download="detalles.csv">DESCARGAR</a>
+  
+  <img id="botonChat" class="chatLogo" src="http://www.scn.com.co/wp-content/uploads/2023/07/ICONCHAT2.png">
+  <script src="./nuevotest.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</body>
+</html>
