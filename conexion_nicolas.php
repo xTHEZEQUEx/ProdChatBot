@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "sakashima";
-$password = "1031540877";
-$dbname = "chatbotscn";
+$username = "i6990943_wp2";
+$password = "O.GuMxiINHveV6k78FM14";
+$dbname = "i6990943_wp2";
 // $table = "camposformulario";
 
 

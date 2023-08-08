@@ -3,11 +3,11 @@
 require 'conexion_nicolas.php';
 // Database credentials
 $servername = "localhost";
-$username = "sakashima";
-$password = "1031540877";
-$dbname = "chatbotscn";
+$username = "i6990943_wp2";
+$password = "O.GuMxiINHveV6k78FM14";
+$dbname = "i6990943_wp2";
 global $table;
-$table = "camposformulario";
+$table = "ChatBotFields";
 
 // Establish database connection
 // $conn = new mysqli($servername, $username, $password, $dbname,$table); //Quitar el table en dado caso

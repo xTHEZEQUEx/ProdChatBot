@@ -41,7 +41,7 @@ ini_set('display_errors', 1);
 
 require 'conexion_nicolas.php'; 
 
-$query = "SELECT * FROM camposformulario";
+$query = "SELECT * FROM ChatBotFields";
 $result = mysqli_query($conn, $query);
 
 if (mysqli_num_rows($result) > 0) {
