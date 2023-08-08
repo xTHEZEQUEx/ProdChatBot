@@ -45,7 +45,7 @@ $query = "SELECT * FROM camposformulario";
 $result = mysqli_query($conn, $query);
 
 if (mysqli_num_rows($result) > 0) {
-    $docu = "detalles.csv";
+    $docu = "ChatBotData.csv";
 
     header('Content-type: text/csv');
     header('Content-Disposition: attachment; filename=' . $docu);
